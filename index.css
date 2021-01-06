@@ -1,0 +1,162 @@
+/*Body à partir de là*/
+
+.tbody{
+	font-family: arial ;
+	text-align: -webkit-center;
+}
+
+.link{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 10px;
+	align-items: center;
+	font-family: arial ;
+	font-size: 80%;
+}
+.link .barrelink{
+	margin-left: 20px;
+}
+.link button{
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	padding: 8px 15px;
+	font-weight: bold;
+	color: white;
+	border: 1px solid #4387fd;
+	border-radius: 2px;
+}
+
+.google{
+	padding-top: 200px;
+}
+
+.barre input{
+	height: 40px;
+	border-radius: 20px;
+}
+.barre input:hover{
+	box-shadow: 4px 4px 4px black;
+}
+
+.bouton button{
+	justify-content: center;
+	padding: 8px 12px 8px 12px;
+	border: rgb(118, 118, 118)
+	border-radius: 10px;
+}
+.bouton button:hover{
+	padding: 8px 12px 8px 12px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.jugement{
+	margin-top: 30px;
+	border: 1px solid;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+}
+.langue{
+	padding-top: 25px;
+}
+
+
+span{
+	color: #1a0dab;
+}
+
+/*Footer à partir de là*/
+
+.france{
+	border: solid 0.5px rgba(0,0,0,.54);
+	background: #f2f2f2;
+	padding-left: 23px;
+	padding-bottom: 5px;
+	justify-content: flex-start;
+}
+
+.publicite{
+	order: 1;
+	padding-right: 5px
+}
+
+.entreprise{
+	order: 2;
+	padding-right: 5px
+}
+
+.propos{
+	order: 3;
+	padding-right: 5px
+}
+
+.howtouse{
+	order: 4;
+	padding-right: 5px
+}
+
+.neutre{
+	order: 5;
+	padding-right: 10px
+}
+
+.infoconso{
+	order: 6;
+	padding-right: 5px
+}
+
+.confidentialite{
+	order: 7;
+	padding-right: 5px
+}
+
+.conditions{
+	order: 8;
+	padding-right: 5px
+}
+
+.parametre{
+ 	order: 9;
+ 	padding-right: 10px
+}
+
+.footer1{
+	border: solid 0.25px rgba(0,0,0,.54);
+	padding: 1px 1px 1px 1px;
+}
+.france{
+	height: 35px;
+	border: solid 0.25px rgba(0,0,0,.54);
+	background: #f2f2f2;
+	padding-left: 40px;
+	display: flex;
+	font-size: 85%;
+	flex-direction: row;
+	text-decoration: none;
+}
+.carbon{
+	height: 14px;
+	width: 12px;
+}
+
+.footer2{
+	height: 35px;
+	border: solid 0.25px rgba(0,0,0,.54);
+	background: #f2f2f2;
+	padding-left: 27px;
+	display: flex;
+	font-size: 85%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+}
+.footerg{
+	font-family: arial ;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	right: 0;
+}
